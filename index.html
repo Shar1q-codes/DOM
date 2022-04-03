@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #flex {
+        display: flex;
+        flex-direction: row;
+      }
+      .box {
+        width: 40px;
+        height: 40px;
+        border: 2px solid brown;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="text">Java assessment page:</p>
+    <h1>hai hello</h1>
+    <h1>Students</h1>
+    <div id="lang">
+      <h1>Coding</h1>
+      Languages:
+    </div>
+    <button onclick="handleSubmit()">Click here</button>
+    <h2 class="hea">Java Script</h2>
+    <!--Write the code to access element which is having id as "text"-->
+    <div id="ele">Elevation</div>
+    <button onclick="clickme()">Click here</button><br />
+    <br />
+    <br />
+    <div id="flex">
+      <div class="box" style="background-color: coral">BOX 1</div>
+      <div class="box" style="background-color: pink">BOX 2</div>
+      <div class="box" style="background-color: lightgreen">BOX 3</div>
+    </div>
+    <br />
+    <button onclick="Submit()">Change Direction</button>
+    <br />
+    <p>Select one from the given Options:</p>
+
+    <select name="sel" id="texti">
+      <option value="0">Default</option>
+      <option value="20-21">20-21</option>
+      <option value="21-22">21-22</option>
+      <option value="22-23">22-23</option>
+    </select>
+
+    <button onclick="getOption()">Click here</button>
+
+    <p>
+      The value of the selcted Option is :
+
+      <span id="output"></span>
+    </p>
+    <p>Clock</p>
+    <span id="hour">00</span>
+    <span id="min">00</span>
+    <span id="sec">00</span>
+    <span id="ampm">AM</span>
+
+    <script src="./scr.js"></script>
+  </body>
+</html>
